@@ -96,7 +96,7 @@
     * 空列表 []
     * 空元组 ()
     * 空字典 {}
-    * 用户创建的类如果定义了nonzero(\_\_nonzero__()) 或 length(\_\_len__())且值为0
+    * 用户创建的类如果定义了nonzero(\_\_nonzero__() Python3 不支持此方法，换成 \_\_bool__) 或 length(\_\_len__())且值为0
 2. 对象比较： `aobj is bobj` 等价于 `id(aobj) == id(bobj)`
 3. 数据类型分类：
     1. 可变类型： List, Dict
@@ -107,6 +107,11 @@
     2. 顺序访问: str, List, Tuple
     3. 映射访问: Dict
 4. 
+### Python 数字
+1. 复数的实部和虚部默认为浮点型（Float）
+2. \+ 运算符；当两个操作数的数据类型不同时，则根据两个操作数的存在的数据类型 `complex > float > int > bool`
+的优先顺序进行转换 
+3. bool 对类的转换，根据 \_\_bool__ 和 \_\_len__ 的方法实现完成，
 
 
 

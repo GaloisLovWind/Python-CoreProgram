@@ -1,0 +1,4 @@
+1 Lambda function
+2 Build-in function:apply(),filter(),map(),reduce()
+3 Currying function
+4 ppfaGUI

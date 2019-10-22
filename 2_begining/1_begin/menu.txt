@@ -1,0 +1,12 @@
+1 print() 方法调用
+2 input() 输入调用
+3 运算符
+4 数字类型
+5 元组和列表
+6 字典
+7 for-in, range()
+8 列表解析
+9 文件读取 open()
+10 try-except 错误和异常"
+11 function 函数
+12 Class 类

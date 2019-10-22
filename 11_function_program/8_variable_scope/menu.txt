@@ -1,0 +1,8 @@
+1 Global variables and Local variables
+2 Global statement
+3 Number of scope
+4 Closure
+5 Closure vars
+6 Logged
+7 Scope and Lambda
+8 Variable scope and namespace
